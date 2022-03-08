@@ -11,18 +11,6 @@ const reqNumber = {
     required: true,
 }
 
-// const proveedorSchema = new Schema({
-//     nombre: reqString,
-//     domicilio: reqString,
-// })
-
-// const productoSchema = new Schema({
-//     codigo: reqString,
-//     nombre: reqString,
-//     valor: reqNumber,
-//     ref_proveedor: [proveedorSchema],
-// })
-
 const productoSchema = new Schema({
     serie: reqString,
     stock: reqNumber,
